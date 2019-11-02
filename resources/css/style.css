@@ -88,6 +88,9 @@ h2{
 h3{
     font-size: 95%;
     color: darkgreen;
+    float: left;
+    vertical-align: middle;
+    padding-left: 10px;
 }
 h2:after{
     content: " ";
@@ -127,5 +130,28 @@ h2:after{
 
 
 .box-about:first-child {
-    width: 40%;
+    width:35%;
+}
+.box-about:last-child{
+    width:50%;
+}
+.box-about{
+    margin-top: 20px;
+}
+
+.abt-details {
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.abt-details p{
+    font-size:80%;
+    line-height: 150%;
+    display: block;
+    margin-top: 40px;
+}
+
+.icon-pc {
+    display: inline-block;
+    float: left;
+    margin-top: -10px;
 }

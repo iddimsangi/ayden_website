@@ -72,11 +72,31 @@ header{
     background-position: center;
     height: 100vh;
 }
-h1{
-    font-size: 150%;
+h1,h2,h3{
     font-weight: 300;
     text-transform: uppercase;
+}
+h1{
+    font-size: 150%;
     color: #f7eded;
+}
+h2{
+    font-size: 120%;
+    color:forestgreen;
+    text-align: center;
+}
+h3{
+    font-size: 95%;
+    color: darkgreen;
+}
+h2:after{
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color:darkgreen;
+    margin: 0 auto;
+    margin-top: 17px;
 }
 .btn{
     text-decoration: none;
@@ -87,3 +107,25 @@ h1{
     color:#555;
 }
 
+
+.abt-txt {
+    font-size: 85%;
+    line-height: 130%;
+    width: 70%;
+    margin-left:15%;
+    margin-top: 8px;
+}
+
+.abt-img {
+    float:left;
+    height: auto;
+}
+
+.abt-details p{
+    font-size: 85%;
+}
+
+
+.box-about:first-child {
+    width: 40%;
+}

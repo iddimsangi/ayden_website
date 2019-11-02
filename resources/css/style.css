@@ -76,7 +76,7 @@ header{
     height: 100vh;
 }
 /*------------------------------------------------------HEADINGS----------------------------------------*/
-h1,h2,h3{
+h1,h2,h3,h4{
     font-weight: 300;
     text-transform: uppercase;
 }
@@ -109,6 +109,16 @@ h2:after{
     background-color:darkgreen;
     margin: 0 auto;
     margin-top: 17px;
+}
+h4{
+    font-size: 90%;
+    margin-top: 12px;
+    font-weight: 400;
+    color: dodgerblue;
+}
+h4 span{
+    font-weight: 600;
+    color: darkgreen;
 }
 /*------------------------------------------------------BUTTONS-------------------------------------------*/
 .btn{
@@ -168,4 +178,16 @@ h2:after{
 /*===================================================SECTION-SERVICES==================================*/
 .sec-services {
     background-color:#fafafa;
+}
+
+.card-services {
+    width: 100%;
+    box-shadow: 1px 1px 1px;
+}
+.card-services div p{
+    font-size: 90%;
+    padding: 2%;
+}
+.card-services img{
+    width: 100%;
 }

@@ -11,6 +11,7 @@ html{
     background-color: #fff;
     text-rendering: optimizeLegibility;
 }
+/*========================REUSABLE===============================================*/
 .row{
     width: 1140px;
     margin: 0 auto;
@@ -49,6 +50,7 @@ section{
 .nivigations-list li a:active{
     border-bottom: 2px solid green;
 }
+/*---------------------------------ICONS----------------------------------------------------------*/
 .icon-small {
     font-size: 30px;
     color: green;
@@ -70,8 +72,10 @@ header{
     background-image:linear-gradient(rgba(21, 20, 20, 0.45),rgba(21, 20, 20, 0.51)),url(img/slider_bg_2.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
 }
+/*------------------------------------------------------HEADINGS----------------------------------------*/
 h1,h2,h3{
     font-weight: 300;
     text-transform: uppercase;
@@ -86,11 +90,16 @@ h2{
     text-align: center;
 }
 h3{
+    font-weight: 400;
     font-size: 95%;
-    color: darkgreen;
+    color:palevioletred;
     float: left;
     vertical-align: middle;
     padding-left: 10px;
+}
+h3 span{
+    font-weight: 500;
+    color: darkgreen;
 }
 h2:after{
     content: " ";
@@ -101,6 +110,7 @@ h2:after{
     margin: 0 auto;
     margin-top: 17px;
 }
+/*------------------------------------------------------BUTTONS-------------------------------------------*/
 .btn{
     text-decoration: none;
     border: 2px solid green;
@@ -123,7 +133,7 @@ h2:after{
     float:left;
     height: auto;
 }
-
+/*==========================================================SECTION-ABOUT-==================================*/
 .abt-details p{
     font-size: 85%;
 }
@@ -154,4 +164,8 @@ h2:after{
     display: inline-block;
     float: left;
     margin-top: -10px;
+}
+/*===================================================SECTION-SERVICES==================================*/
+.sec-services {
+    background-color:#fafafa;
 }

@@ -20,18 +20,23 @@ section{
     padding: 80px 0;
 }
 /*=======================================NAV-BAR===============================*/
+.logo {
+    float: left;
+    width:200px;
+    height: auto;
+}
 .main-navs p span{
     color:green;
     font-weight: 600;
 }
 .main-navs {
-    background-color:#fcfcfc;
+    background-color:#fff;
     padding: 12px;
 }
 .nivigations-list {
     list-style: none;
     float: right;
-    margin-top: 10px;
+    margin-top: 5px;
 /*    margin-top: 10px;*/
 }
 .nivigations-list li{
@@ -66,11 +71,11 @@ section{
 }
 .main-text-heading {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left:25%;
 }
 header{
-    background-image:linear-gradient(rgba(21, 20, 20, 0.45),rgba(21, 20, 20, 0.51)),url(img/slider_bg_2.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(img/o-HOUSE-CLEANING-facebook.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -214,8 +219,4 @@ h4 span{
     border: 2px solid darkgreen;
 }
 
-.logo {
-    float: left;
-    width: 300px;
-    height: auto;
-}
+

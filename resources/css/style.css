@@ -25,12 +25,13 @@ section{
     font-weight: 600;
 }
 .main-navs {
-    background-color:#fff;
+    background-color:#fcfcfc;
     padding: 12px;
 }
 .nivigations-list {
     list-style: none;
     float: right;
+    margin-top: 10px;
 /*    margin-top: 10px;*/
 }
 .nivigations-list li{
@@ -41,7 +42,7 @@ section{
 .nivigations-list li a:visited{
     text-decoration: none;
     text-transform: uppercase;
-    color:dodgerblue;
+    color:#1d5f9f;
     padding-bottom: 5px;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.2s;
@@ -204,11 +205,17 @@ h4 span{
 .btn-full:visited {
     color:#1d5f9f;
     border: 2px solid #1d5f9f;
-    transition:background-color 0.2s, border 0.2s, color 0.2s;
+    transition:background-color 0.2s, border 0.s, color 0.2s;
 }
 .btn-full:hover, 
 .btn-full:active{
     background-color: darkgreen;
     color: #fff;
     border: 2px solid darkgreen;
+}
+
+.logo {
+    float: left;
+    width: 300px;
+    height: auto;
 }

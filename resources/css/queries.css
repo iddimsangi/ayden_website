@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1024px) {
+    h1{
+font-size:130%;
+    }
+    .nivigations-list li a{
+        font-size: 90%;
+    }
+    .abt-img {
+    width: 95%;
+}
+    
+}
+@media only screen and (max-width: 767px) {
+    h1{
+        font-size: 100%;
+        margin-bottom: 30px;
+    }
+    .btn{
+    border: 1px solid green;
+    padding: 10px;
+    margin-right:5px;
+    text-transform: uppercase;
+    color:#fff;
+    font-weight: 300;
+}
+    h2{
+        font-size: 90%;
+    }
+    h3{
+    font-size: 80%;
+    }
+    .abt-txt {
+    font-size: 78%;
+    line-height: 120%;
+}
+    .card-services div p{
+    font-size: 70%;
+    padding: 1%;
+}
+    .footer-nav li,
+.social-links li {
+    margin-right: 10px;
+}
+}
+
+@media only screen and (max-width: 480px) {
+   
+}

@@ -137,6 +137,8 @@ h4 span{
     color:#fff;
     font-weight: 400;
 }
+input[type=submit]:link,
+input[type=submit]:visited,
 .btn-full:link, 
 .btn-full:visited {
     color:#fff;
@@ -333,3 +335,36 @@ footer p {
     text-align: center;
     margin-top: 20px;
 }
+/*==========================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

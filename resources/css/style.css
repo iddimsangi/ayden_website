@@ -273,7 +273,7 @@ footer {
 
 .footer-nav li,
 .social-links li {
-    display:block;
+    display: inline-block;
     margin-right: 20px;
 }
 

@@ -13,7 +13,7 @@ html{
 }
 /*========================REUSABLE===============================================*/
 .row{
-    width: 1140px;
+    width:100%;
     margin: 0 auto;
 }
 section{
@@ -75,7 +75,7 @@ section{
     left:25%;
 }
 header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(img/o-HOUSE-CLEANING-facebook.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.5)),url(img/o-HOUSE-CLEANING-facebook.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -134,8 +134,21 @@ h4 span{
     padding: 10px;
     margin-right:5px;
     text-transform: uppercase;
-    color:#555;
+    color:#fff;
     font-weight: 400;
+}
+.btn-full:link, 
+.btn-full:visited {
+    color:#fff;
+    background-color:#1d5f9f; 
+    border: 2px solid #1d5f9f;
+    transition:background-color 0.2s, border 0.s, color 0.2s;
+}
+.btn-full:hover, 
+.btn-full:active{
+    background-color: darkgreen;
+    color: #fff;
+    border: 2px solid darkgreen;
 }
 
 
@@ -206,17 +219,117 @@ h4 span{
     opacity: 1.63;
 }
 
-.btn-full:link, 
-.btn-full:visited {
-    color:#1d5f9f;
-    border: 2px solid #1d5f9f;
-    transition:background-color 0.2s, border 0.s, color 0.2s;
+.btn-ghost {
+    border: 3px solid #1d5f9f;
+    color:#fff;
 }
-.btn-full:hover, 
-.btn-full:active{
-    background-color: darkgreen;
-    color: #fff;
-    border: 2px solid darkgreen;
+/*================================================FORM=====================================================*/
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {outline: none;}
+
+
+/* ----------------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------------- */
+
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display:block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited, 
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-social-twitter:hover {
+    color: #00aced;
+}
+
+.ion-social-googleplus:hover {
+    color: #dd4b39;
+}
+
+.ion-social-instagram:hover {
+    color: #517fa4;
 }
 
 
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 html{
@@ -50,6 +51,7 @@ section{
     color:#1d5f9f;
     padding-bottom: 5px;
     border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
 }
 .nivigations-list li a:hover,
@@ -75,6 +77,7 @@ section{
     left:25%;
 }
 header{
+    background-image:-webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.55)),to(rgba(0, 0, 0, 0.5))),url(img/o-HOUSE-CLEANING-facebook.jpg);
     background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.5)),url(img/o-HOUSE-CLEANING-facebook.jpg);
     background-size: cover;
     background-position: center;
@@ -128,7 +131,8 @@ h4 span{
     color: darkgreen;
 }
 /*------------------------------------------------------BUTTONS-------------------------------------------*/
-.btn{
+.btn,
+input[type=submit]{
     text-decoration: none;
     border: 2px solid green;
     padding: 10px;
@@ -137,23 +141,23 @@ h4 span{
     color:#fff;
     font-weight: 400;
 }
-input[type=submit]:link,
-input[type=submit]:visited,
+input[type=submit],
 .btn-full:link, 
 .btn-full:visited {
     color:#fff;
     background-color:#1d5f9f; 
     border: 2px solid #1d5f9f;
+    -webkit-transition:background-color 0.2s, border 0.s, color 0.2s;
     transition:background-color 0.2s, border 0.s, color 0.2s;
 }
+input[type=submit]:hover,
+input[type=submit]:active,
 .btn-full:hover, 
 .btn-full:active{
     background-color: darkgreen;
     color: #fff;
     border: 2px solid darkgreen;
 }
-
-
 
 .abt-txt {
     font-size: 85%;
@@ -206,6 +210,7 @@ input[type=submit]:visited,
 
 .card-services {
     width: 100%;
+    -webkit-box-shadow: 0px 1px 1px #838383;
     box-shadow: 0px 1px 1px #838383;
 }
 .card-services div p{
@@ -214,9 +219,13 @@ input[type=submit]:visited,
 }
 .card-services img{
     width: 100%;
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: -webkit-transform 0.2s;
     transition: transform 0.2s;
+    transition: transform 0.2s, -webkit-transform 0.2s;
 }
 .card-services img:hover{
+    -webkit-transform: scale(1.09);
     transform: scale(1.09);
     opacity: 1.63;
 }
@@ -231,7 +240,6 @@ input[type=submit]:visited,
     width: 60%;
     margin: 0 auto;
 }
-
 input[type=text],
 input[type=email],
 select,

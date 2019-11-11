@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400&display=swap" rel="stylesheet">
@@ -17,16 +18,19 @@
            <div class="row">
 <!--                <p>A<span>Y</span>DEN</p>-->
                <img src="resources/img/LOGO.jpeg" class="logo js-scroll-to-main-sec" alt="logo">
-                <ul class="nivigations-list">
+                <ul class="nivigations-list js--navigations-list">
                     <li><a href="#home"><i class="ion-home icon-small"></i> home</a></li>
                     <li><a href="#about"><i class="ion-person icon-small"></i> about</a></li>
                     <li><a href="#services"><i class="ion-trash-a icon-small"></i> services</a></li>
                     <li><a href="#form"><i class="ion-ios-telephone icon-small"></i> contacts</a></li>
                 </ul>
+               <a class="js--nav-icon">
+                <i class="ion-navicon js--mob-nav"></i>
+               </a>
              </div>
         </nav>
         <div class="main-text-heading">
-            <h1>Welcome to our cleaning services,<br>we provide you with lots </h1>
+            <h1 class="animated heartBeat">Welcome to our cleaning services,<br>we provide you with lots </h1>
             <a href="#" class="btn btn-full js-scroll-to-section-form">booking</a>
             <a href="#" class="btn btn-ghost js-scroll-to-section-services">more</a>
         </div>
@@ -38,7 +42,7 @@
             </div>
             <div class="row">
                 <div class="col span-1-of-2 box-about">
-                    <img src="resources/img/c1.png" class="abt-img" alt="pcha">
+                    <img src="resources/img/c1.png" class="abt-img animated bounceInUp" alt="pcha">
                 </div>
                  <div class="col span-1-of-2 box-about">
                      <div class="abt-details">
@@ -145,7 +149,7 @@
                 <h2>We're happy to hear from you</h2>
             </div>
             <div class="row">
-                <form method="post" action="#" class="contact-form">
+                <form method="post" action="#" class="contact-form animated fadeInUp">
                     <div class="row">
                         <div class="col span-1-of-3">
                             <label for="name">Name</label>

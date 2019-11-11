@@ -28,6 +28,21 @@ font-size:130%;
     .nivigations-list{
         display: none;
     }
+    .ion-navicon{
+        display: inline-block;
+        margin-left: 30px;
+    }
+    .nivigations-list{
+        float: left;
+        margin-left: 25px;
+    }
+ .nivigations-list li{
+      display:block;
+}
+    .nivigations-list li a:link,
+    .nivigations-list li a:visited{
+        border: none;
+    }
     h2{
         font-size: 90%;
     }

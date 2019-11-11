@@ -59,6 +59,18 @@ section{
 .nivigations-list li a:active{
     border-bottom: 2px solid green;
 }
+/*-------------------mobile-navs-----------*/
+.ion-navicon{
+    float: right;
+    margin-top: 10px;
+    cursor: pointer;
+    display: none;
+}
+.ion-close-round{
+    float: right;
+    margin-top: 10px;
+    cursor: pointer;
+}
 /*-----------STICKY-NAVS-------------*/
 .sticky{
     position: fixed;

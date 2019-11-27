@@ -10,7 +10,7 @@ $(document).ready(function(){
             $('nav').removeClass('sticky');
         }
     },{
-         offset: 60 
+         offset:60 
     });
     /*----------------SCROLL NAVIGATIONS---------------------------*/
     $('.js-scroll-to-section-form').click(function(){

@@ -24,7 +24,7 @@ section{
 .logo {
     float: left;
     width:200px;
-    height: auto;
+    height:70px;
 }
 /*-----------MAIN-NAVS-------------*/
 .main-navs p span{
@@ -33,12 +33,12 @@ section{
 }
 .main-navs {
     background-color:#fff;
-    padding: 12px;
+    padding: 5px;
 }
 .nivigations-list {
     list-style: none;
     float: right;
-    margin-top: 5px;
+    margin-top: 15px;
 /*    margin-top: 10px;*/
 }
 .nivigations-list li{
@@ -399,3 +399,13 @@ footer p {
 
 
 
+
+#inst-footer {
+    text-decoration: none;
+    color:#ccc;
+    font-weight: 300;
+    transition: color 0.2s;
+}
+#inst-footer:hover{
+    color: darkgreen;
+}

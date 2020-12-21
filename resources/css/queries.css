@@ -27,6 +27,7 @@ font-size:130%;
 }
     .nivigations-list{
         display: none;
+        margin-top: 10px;
     }
     .ion-navicon{
         display: inline-block;
